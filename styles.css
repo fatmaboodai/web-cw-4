@@ -19,6 +19,7 @@ nav { display:flex;
 .nav-elements { display: flex;
   justify-content:space-between;
   width: 150px;
+  transition: all 1s step-end;
   
   
 }
@@ -66,6 +67,10 @@ img{
   
 .pic{ transition: all 2s ease-in-out;}
 .pic:hover{transform: translate(100px,0) rotate(30deg)}
+
+#section1{
+  scroll-behavior: smooth;
+}
 
 ul {
   padding: 0;
